@@ -1,0 +1,464 @@
+﻿.flexcontainer1{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.flexcontainer2{
+	display: flex;
+	flex-direction: row;
+	padding-top: 25px;
+}
+
+.flexcontainer3{
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+	padding-top: 25px;
+}
+
+.flexcontainer4 {
+    display: inline-flex;
+    margin: 2rem;
+}
+
+.contactimg{
+    width:50%;
+}
+
+.flexcontainer5 {
+    display:flex;
+    flex-direction: row;
+    padding-top: 25px;
+}
+
+.flexcontainer6{
+    display: flex;
+    flex-direction: row;
+    padding-top: 25px;
+}
+
+.flexfooter{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.searchcontainer{
+	display: flex;
+	flex-direction: row;
+    background-color: #95C7C2;
+	text-align: left;
+}
+
+.refclothing{
+	display: flex;
+	flex: 1 1 auto;
+	flex-wrap: wrap;
+    width:40%;
+}
+
+.content{
+	display: flex;
+	flex-wrap: wrap;
+	height: 100%;
+	width: 70%;
+	align-items: center;
+}
+
+.flexlogoimg{
+	max-width: 85%;
+	height: auto;
+}
+
+.return{
+    gap: 2rem;
+    margin: 2rem;
+    padding: 4rem;
+}
+
+.col-5{
+    margin: 2rem;
+}
+
+.col-10{
+    flex:30%;
+    width:30%;
+    position:relative;
+    left:850px;
+    top:-300px;
+}
+
+.col-11{
+    position:relative;
+    right:230px;
+}
+
+.col-25{
+	flex: 25%;
+}
+
+.col-25a{
+	flex: 25%;
+}
+
+.col-25b{
+	flex: 75%;
+}
+
+.col-30{
+	flex: 30%;
+}
+
+ .col-40{
+	flex: 40%;
+}
+
+.col-50{
+    width:50%;
+}
+
+.pad-it{
+    padding:2rem;
+}
+
+.col-60{
+	flex: 60%;
+}
+
+.col-70{
+	flex: 70%;
+}
+
+.col-75{
+	flex: 75%;
+}
+
+
+.col-100{
+	flex: 100%;
+}
+
+
+.staffimg{
+	width: 75%;
+}
+
+.clothingimg{
+	width: 90%;
+}
+
+ .clothingimgsmall{
+	width: 30%;
+}
+
+#head-table {
+    display: table;
+}
+    #head-table-body{
+        display: table-row-group;
+    }
+    .head-table-row{
+        display: table-row;
+    }
+    .table-body-cell-left{
+        display: table-cell;
+        vertical-align: middle;
+        width: 85%;
+        text-align: left;
+    }
+    .table-body-cell-right {
+        display: table-cell;
+        vertical-align: middle;
+        width: 15%;
+    }
+
+
+body{
+    background-color: #FFD4E5;
+    color: black;
+    text-align: center;
+}
+
+
+.header-logoimg{
+    width: 75%;
+}
+
+ .headerimg{
+    width: 40%;
+height: 15%;
+}
+
+
+h1{
+    font-size:25px;
+    font-stretch: ultra-expanded;
+    font-family:'Trochut', sans-serif;
+}
+
+p{
+    font-size:25px;
+    font-family:'Josefin Sans', sans-serif;
+}
+
+h2 {
+    font-family: 'Trochut', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    vertical-align: top;
+}
+
+
+
+.menu-nav {
+    overflow: hidden;
+    position: relative;
+    color: black;
+    padding:   24px 1px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    text-align: center;
+    background-color: #95C7C2;
+    font-weight: bold;
+}
+
+    .menu-nav #myLinks {
+        display: none;
+    }
+
+    .menu-nav a {
+        color: black;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+        text-align: left;
+        vertical-align: middle;
+    }
+
+        .menu-nav a.icon {
+            background: #95C7C2;
+            display: block;
+            position: absolute;
+            right: 0;
+            top: 0;
+            vertical-align: middle;
+        }
+
+        .menu-nav a:hover {
+            background-color: white;
+            color: black;
+        }
+
+
+.active {
+    background-color: white;
+    color: white;
+}
+
+
+.footer-image {
+    width: 8%;
+}
+
+
+.ups{
+    display: inline-block;
+    color: black;
+    font-weight: bolder;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 2rem;
+    border: 4px solid #BEE4E7;
+    background-color: #95C7C2;
+}
+
+
+@media screen and (max-width:600px){ 
+.flexcontainer1{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+    .flexcontainer5{
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        right: 0px;
+    }
+
+    .flexcontainer6 {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        right: 0px;
+    }
+
+.searchcontainer{
+	display: flex;
+	flex-direction: row;
+    background-color: #95C7C2;
+}
+
+.flexlogoimg{
+	max-width: 70%;
+	height: auto;
+}
+
+.refclothing{
+	display: flex;
+	flex: 1 1 auto;
+	flex-wrap: wrap;
+    width:100%;
+}
+
+.content{
+	display: flex;
+	flex-wrap: wrap;
+	height: 100%;
+	width: 110%;
+}
+
+.return{
+    gap:2rem;
+    margin: 2rem;
+}
+
+.move{
+    bottom:2rem;
+    gap:2rem;
+}
+
+.move-it{
+    margin:2rem 2rem 2rem 2rem;
+    gap:2rem;
+}
+
+.col-5{
+    margin:2rem 2rem 2rem 2rem;
+}
+
+.col-10{
+        flex: 30%;
+        width: 60%;
+        position: relative;
+        left: 100px;
+        top: 50px;
+    }
+
+    .col-11{
+        position: relative;
+        left: 0px;
+    }
+
+.col-25{
+	flex: 100%;
+}
+
+.col-30{
+	flex: 100%;
+}
+
+.col-40{
+	flex: 100%;
+    display:inline-flex;
+    padding:4rem;
+    gap:5rem;
+}
+
+.col-50{
+    position:relative;
+    left:-40px;
+    gap:2rem;
+    padding:2rem;
+}
+
+.col-60{
+	flex: 100%;
+    position:relative;
+    left:-80px;
+}
+
+.col-70{
+        flex: 100%;
+}
+
+.col-75{
+	flex: 100%;
+}
+
+.col-100{
+	flex: 100%;
+}
+
+.col-25a{
+	flex: 10%;
+}
+
+.col-25b{
+	flex: 25%;
+}
+
+    .flexcontainer4 {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        left: 5px;
+        padding:1rem;
+    }
+
+.flexcontainer2{
+	display: inline-flex;
+	flex-direction: column;
+	align-items: center;
+    position:relative;
+    right:-80px;
+}
+
+    .staffimg {
+        width: 100%;
+        position: relative;
+        left: -80px;
+    }
+
+.clothingimg{
+	width: 75%;
+}
+
+    img{
+        width:100%;
+    }
+    h1{
+        font-size:20px;
+        font-stretch:50%;
+    }
+h2 {
+    font-family: 'Trochut', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: top;
+}
+
+p{
+    font-size:15px;
+    font-family:'Josefin Sans', sans-serif;
+}
+
+    nav{
+        align-content:center;
+    }
+
+    .menu-nav #myLinks {
+        display: none;
+    }
+
+    .footer-image{
+        width: 5%;
+    }
+
+}
